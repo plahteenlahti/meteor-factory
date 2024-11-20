@@ -1,15 +1,15 @@
 Package.describe({
   name: "plahteenlahti:factory",
-  summary: "Factories for Meteor",
+  summary: "Factories for Meteor, fork of dburles:factory",
   version: "1.5.1",
   git: "https://github.com/plahteenlahti/meteor-factory.git",
 });
 
 Package.onUse(function (api) {
-  api.versionsFrom("1.2");
+  api.versionsFrom("1.2", "3.0");
   api.use([
     "ecmascript",
-    "minimongo@~2.0.1", // Specify compatible version
+    "minimongo",
     "underscore",
     "ejson",
     "random",
