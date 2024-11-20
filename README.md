@@ -5,7 +5,7 @@ A package for creating test data or for generating fixtures.
 ## Installation
 
 ```sh
-meteor add dburles:factory
+meteor add plahteenlahti:factory
 ```
 
 ## Table of Contents
